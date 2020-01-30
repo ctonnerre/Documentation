@@ -1,4 +1,4 @@
-#include <AccelStepper.h> //librairie de pilotage de moteurs pas à pas testetteteteee
+#include <AccelStepper.h> //librairie de pilotage de moteurs pas à pas
 
 // création des objets AccelStepper pour piloter les moteurs pas à pas
 // axe X moteur 1  pin 2 = step, pin 5 = direction
