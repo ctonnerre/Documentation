@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_dK-c4EQGEeqtOPH65QPK3g" name="jean_uml">
+  <eAnnotations xmi:id="_dK-c4UQGEeqtOPH65QPK3g" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_dK-c4kQGEeqtOPH65QPK3g" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dK-c40QGEeqtOPH65QPK3g" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dK-c5EQGEeqtOPH65QPK3g" name="Diagrammes de sequénces stockage jean">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_dK-c5UQGEeqtOPH65QPK3g" name="Interaction">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_dK-c5kQGEeqtOPH65QPK3g" name="locals"/>
+      <lifeline xmi:id="_dK-c50QGEeqtOPH65QPK3g" name="Ingénieur/Scientifique" coveredBy="_dK-c6UQGEeqtOPH65QPK3g"/>
+      <lifeline xmi:id="_dK-c6EQGEeqtOPH65QPK3g" name="Système" coveredBy="_dK-c6kQGEeqtOPH65QPK3g _dK-c60QGEeqtOPH65QPK3g _dK-c7EQGEeqtOPH65QPK3g _dK-c7UQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c6UQGEeqtOPH65QPK3g" covered="_dK-c50QGEeqtOPH65QPK3g" message="_dK-c7kQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c6kQGEeqtOPH65QPK3g" covered="_dK-c6EQGEeqtOPH65QPK3g" message="_dK-c7kQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dK-c60QGEeqtOPH65QPK3g" covered="_dK-c6EQGEeqtOPH65QPK3g" start="_dK-c6kQGEeqtOPH65QPK3g" finish="_dK-c7UQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c7EQGEeqtOPH65QPK3g" covered="_dK-c6EQGEeqtOPH65QPK3g" message="_dK-c70QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c7UQGEeqtOPH65QPK3g" covered="_dK-c6EQGEeqtOPH65QPK3g" message="_dK-c70QGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-c7kQGEeqtOPH65QPK3g" name="Pose de la pièce sur la machine" receiveEvent="_dK-c6kQGEeqtOPH65QPK3g" sendEvent="_dK-c6UQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-c70QGEeqtOPH65QPK3g" name="Mesure de la pièce" receiveEvent="_dK-c7UQGEeqtOPH65QPK3g" sendEvent="_dK-c7EQGEeqtOPH65QPK3g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_dK-c8EQGEeqtOPH65QPK3g" name="Interaction1">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_dK-c8UQGEeqtOPH65QPK3g" name="locals"/>
+      <lifeline xmi:id="_dK-c8kQGEeqtOPH65QPK3g" name="Système" coveredBy="_dK-c9EQGEeqtOPH65QPK3g"/>
+      <lifeline xmi:id="_dK-c80QGEeqtOPH65QPK3g" name="Base de données" coveredBy="_dK-c9UQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c9EQGEeqtOPH65QPK3g" covered="_dK-c8kQGEeqtOPH65QPK3g" message="_dK-c9kQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c9UQGEeqtOPH65QPK3g" covered="_dK-c80QGEeqtOPH65QPK3g" message="_dK-c9kQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-c9kQGEeqtOPH65QPK3g" name="Envoie de la mesure" receiveEvent="_dK-c9UQGEeqtOPH65QPK3g" sendEvent="_dK-c9EQGEeqtOPH65QPK3g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_dK-c90QGEeqtOPH65QPK3g" name="Interaction2">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_dK-c-EQGEeqtOPH65QPK3g" name="locals"/>
+      <lifeline xmi:id="_dK-c-UQGEeqtOPH65QPK3g" name="Système" coveredBy="_dK-c-kQGEeqtOPH65QPK3g _dK-c-0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c-kQGEeqtOPH65QPK3g" covered="_dK-c-UQGEeqtOPH65QPK3g" message="_dK-c_EQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-c-0QGEeqtOPH65QPK3g" covered="_dK-c-UQGEeqtOPH65QPK3g" message="_dK-c_EQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-c_EQGEeqtOPH65QPK3g" name="Le système se calibre" receiveEvent="_dK-c-0QGEeqtOPH65QPK3g" sendEvent="_dK-c-kQGEeqtOPH65QPK3g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_dK-c_UQGEeqtOPH65QPK3g" name="Interaction3">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_dK-c_kQGEeqtOPH65QPK3g" name="locals"/>
+      <lifeline xmi:id="_dK-c_0QGEeqtOPH65QPK3g" name="Stockage local" coveredBy="_dK-dAkQGEeqtOPH65QPK3g"/>
+      <lifeline xmi:id="_dK-dAEQGEeqtOPH65QPK3g" name="Système" coveredBy="_dK-dAUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dAUQGEeqtOPH65QPK3g" covered="_dK-dAEQGEeqtOPH65QPK3g" message="_dK-dA0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dAkQGEeqtOPH65QPK3g" covered="_dK-c_0QGEeqtOPH65QPK3g" message="_dK-dA0QGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dA0QGEeqtOPH65QPK3g" name="Envoie de la mesure" receiveEvent="_dK-dAkQGEeqtOPH65QPK3g" sendEvent="_dK-dAUQGEeqtOPH65QPK3g"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dK-dBEQGEeqtOPH65QPK3g" name="Diagramme de séquence mesure centre de gravité AM">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_dK-dBUQGEeqtOPH65QPK3g" name="Interaction">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_dK-dBkQGEeqtOPH65QPK3g" name="locals"/>
+      <lifeline xmi:id="_dK-dB0QGEeqtOPH65QPK3g" name="Utilisateur" coveredBy="_dK-dCUQGEeqtOPH65QPK3g _dK-dC0QGEeqtOPH65QPK3g _dK-dDUQGEeqtOPH65QPK3g _dK-dD0QGEeqtOPH65QPK3g _dK-dFUQGEeqtOPH65QPK3g _dK-dFkQGEeqtOPH65QPK3g _dK-dGEQGEeqtOPH65QPK3g _dK-dHUQGEeqtOPH65QPK3g"/>
+      <lifeline xmi:id="_dK-dCEQGEeqtOPH65QPK3g" name="Machine" coveredBy="_dK-dCkQGEeqtOPH65QPK3g _dK-dDEQGEeqtOPH65QPK3g _dK-dDkQGEeqtOPH65QPK3g _dK-dEEQGEeqtOPH65QPK3g _dK-dEUQGEeqtOPH65QPK3g _dK-dEkQGEeqtOPH65QPK3g _dK-dE0QGEeqtOPH65QPK3g _dK-dFEQGEeqtOPH65QPK3g _dK-dF0QGEeqtOPH65QPK3g _dK-dGUQGEeqtOPH65QPK3g _dK-dGkQGEeqtOPH65QPK3g _dK-dG0QGEeqtOPH65QPK3g _dK-dHEQGEeqtOPH65QPK3g _dK-dHkQGEeqtOPH65QPK3g _dK-dH0QGEeqtOPH65QPK3g _dK-dIEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dCUQGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dIUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dCkQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dIUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dC0QGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dIkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dDEQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dIkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dDUQGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dI0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dDkQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dI0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dD0QGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dJEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dEEQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dJEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dK-dEUQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" start="_dK-dEEQGEeqtOPH65QPK3g" finish="_dK-dFEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dEkQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dJUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dE0QGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dJUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dFEQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dJkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dFUQGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dJkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dFkQGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dJ0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dF0QGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dJ0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dGEQGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dKEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dGUQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dKEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dK-dGkQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" start="_dK-dGUQGEeqtOPH65QPK3g" finish="_dK-dHkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dG0QGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dKUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dHEQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dKkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dHUQGEeqtOPH65QPK3g" covered="_dK-dB0QGEeqtOPH65QPK3g" message="_dK-dKkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dHkQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dKUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dH0QGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dK0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dIEQGEeqtOPH65QPK3g" covered="_dK-dCEQGEeqtOPH65QPK3g" message="_dK-dK0QGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dIUQGEeqtOPH65QPK3g" name="Demande de calibrer la machine" receiveEvent="_dK-dCkQGEeqtOPH65QPK3g" sendEvent="_dK-dCUQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dIkQGEeqtOPH65QPK3g" name="Calibre la machine" receiveEvent="_dK-dDEQGEeqtOPH65QPK3g" sendEvent="_dK-dC0QGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dI0QGEeqtOPH65QPK3g" name="Pose le poids de 2kg pour tarer la machine" receiveEvent="_dK-dDkQGEeqtOPH65QPK3g" sendEvent="_dK-dDUQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dJEQGEeqtOPH65QPK3g" name="Demande de tarer la machine" receiveEvent="_dK-dEEQGEeqtOPH65QPK3g" sendEvent="_dK-dD0QGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dJUQGEeqtOPH65QPK3g" name="La machine se tare" receiveEvent="_dK-dE0QGEeqtOPH65QPK3g" sendEvent="_dK-dEkQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dJkQGEeqtOPH65QPK3g" name="La machine est tarée" messageSort="reply" receiveEvent="_dK-dFUQGEeqtOPH65QPK3g" sendEvent="_dK-dFEQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dJ0QGEeqtOPH65QPK3g" name="Pose l'objet à mesurer" receiveEvent="_dK-dF0QGEeqtOPH65QPK3g" sendEvent="_dK-dFkQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dKEQGEeqtOPH65QPK3g" name="Demande la mesure du centre de gravité de l'objet" receiveEvent="_dK-dGUQGEeqtOPH65QPK3g" sendEvent="_dK-dGEQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dKUQGEeqtOPH65QPK3g" name="Mesure du centre de gravité de l'objet" receiveEvent="_dK-dHkQGEeqtOPH65QPK3g" sendEvent="_dK-dG0QGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dKkQGEeqtOPH65QPK3g" name="Indique le centre de gravité de l'objet" messageSort="reply" receiveEvent="_dK-dHUQGEeqtOPH65QPK3g" sendEvent="_dK-dHEQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dK0QGEeqtOPH65QPK3g" name="La machine retourne à son origine" receiveEvent="_dK-dIEQGEeqtOPH65QPK3g" sendEvent="_dK-dH0QGEeqtOPH65QPK3g">
+        <ownedComment xmi:id="_dK-dLEQGEeqtOPH65QPK3g">
+          <body>La machine se remet en place pour être prête à démarrer une nouvelle mesure.
+</body>
+        </ownedComment>
+      </message>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dK-dLUQGEeqtOPH65QPK3g" name="Diagramme de séquence IHM">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_dK-dLkQGEeqtOPH65QPK3g" name="IHM">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_dK-dL0QGEeqtOPH65QPK3g" name="locals"/>
+      <lifeline xmi:id="_dK-dMEQGEeqtOPH65QPK3g" name="Utilisateur"/>
+      <lifeline xmi:id="_dK-dMUQGEeqtOPH65QPK3g" name="IHM"/>
+      <lifeline xmi:id="_dK-dMkQGEeqtOPH65QPK3g" name="Microcontroleur"/>
+      <lifeline xmi:id="_dK-dM0QGEeqtOPH65QPK3g" name="Capteurs poids"/>
+      <lifeline xmi:id="_dK-dNEQGEeqtOPH65QPK3g" name="Moteur z"/>
+      <lifeline xmi:id="_dK-dNUQGEeqtOPH65QPK3g" name="Moteur y"/>
+      <lifeline xmi:id="_dK-dNkQGEeqtOPH65QPK3g" name="Moteur x"/>
+      <lifeline xmi:id="_dK-dN0QGEeqtOPH65QPK3g" name="Base de données"/>
+      <fragment xmi:type="uml:InteractionUse" xmi:id="_dK-dOEQGEeqtOPH65QPK3g" refersTo="_dK-dOUQGEeqtOPH65QPK3g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_dK-dOUQGEeqtOPH65QPK3g" name="Se connecter">
+      <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_dK-dOkQGEeqtOPH65QPK3g" name="locals"/>
+      <lifeline xmi:id="_dK-dO0QGEeqtOPH65QPK3g" name="Utilisateur" coveredBy="_dK-dP0QGEeqtOPH65QPK3g _dK-dQEQGEeqtOPH65QPK3g _dK-dQUQGEeqtOPH65QPK3g _dK-dQkQGEeqtOPH65QPK3g _dK-dSEQGEeqtOPH65QPK3g _dK-dT0QGEeqtOPH65QPK3g _dK-dWEQGEeqtOPH65QPK3g"/>
+      <lifeline xmi:id="_dK-dPEQGEeqtOPH65QPK3g" name="IHM" coveredBy="_dK-dPkQGEeqtOPH65QPK3g _dK-dQ0QGEeqtOPH65QPK3g _dK-dREQGEeqtOPH65QPK3g _dK-dRUQGEeqtOPH65QPK3g _dK-dSEQGEeqtOPH65QPK3g _dK-dTUQGEeqtOPH65QPK3g _dK-dTkQGEeqtOPH65QPK3g _dK-dVUQGEeqtOPH65QPK3g _dK-dVkQGEeqtOPH65QPK3g _dK-dV0QGEeqtOPH65QPK3g"/>
+      <lifeline xmi:id="_dK-dPUQGEeqtOPH65QPK3g" name="Système d'authentification" coveredBy="_dK-dRkQGEeqtOPH65QPK3g _dK-dR0QGEeqtOPH65QPK3g _dK-dSEQGEeqtOPH65QPK3g _dK-dTEQGEeqtOPH65QPK3g _dK-dVEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dPkQGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" message="_dK-dWUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dP0QGEeqtOPH65QPK3g" covered="_dK-dO0QGEeqtOPH65QPK3g" message="_dK-dWUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dK-dQEQGEeqtOPH65QPK3g" covered="_dK-dO0QGEeqtOPH65QPK3g" start="_dK-dP0QGEeqtOPH65QPK3g" finish="_dK-dQUQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_dK-dQUQGEeqtOPH65QPK3g" covered="_dK-dO0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dQkQGEeqtOPH65QPK3g" covered="_dK-dO0QGEeqtOPH65QPK3g" message="_dK-dWkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dQ0QGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" message="_dK-dWkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dK-dREQGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" start="_dK-dQ0QGEeqtOPH65QPK3g" finish="_dK-dTkQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dRUQGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" message="_dK-dW0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dRkQGEeqtOPH65QPK3g" covered="_dK-dPUQGEeqtOPH65QPK3g" message="_dK-dW0QGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dK-dR0QGEeqtOPH65QPK3g" covered="_dK-dPUQGEeqtOPH65QPK3g" start="_dK-dRkQGEeqtOPH65QPK3g" finish="_dK-dTEQGEeqtOPH65QPK3g"/>
+      <fragment xmi:type="uml:CombinedFragment" xmi:id="_dK-dSEQGEeqtOPH65QPK3g" name="CombinedFragment" covered="_dK-dO0QGEeqtOPH65QPK3g _dK-dPEQGEeqtOPH65QPK3g _dK-dPUQGEeqtOPH65QPK3g" interactionOperator="alt">
+        <operand xmi:id="_dK-dSUQGEeqtOPH65QPK3g" name="InteractionOperand">
+          <guard xmi:id="_dK-dSkQGEeqtOPH65QPK3g">
+            <specification xmi:type="uml:LiteralString" xmi:id="_dK-dS0QGEeqtOPH65QPK3g" value="Réponse favorable"/>
+          </guard>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dTEQGEeqtOPH65QPK3g" covered="_dK-dPUQGEeqtOPH65QPK3g" message="_dK-dXEQGEeqtOPH65QPK3g"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dTUQGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" message="_dK-dXEQGEeqtOPH65QPK3g"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dTkQGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" message="_dK-dXUQGEeqtOPH65QPK3g"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dT0QGEeqtOPH65QPK3g" covered="_dK-dO0QGEeqtOPH65QPK3g" message="_dK-dXUQGEeqtOPH65QPK3g"/>
+        </operand>
+        <operand xmi:id="_dK-dUEQGEeqtOPH65QPK3g">
+          <ownedComment xmi:id="_dK-dUUQGEeqtOPH65QPK3g">
+            <body>En cas d'échec d'authentiication, l'IHM re-affiche le formulaire d'identification et recommance l'authentification.&#xD;
+</body>
+          </ownedComment>
+          <guard xmi:id="_dK-dUkQGEeqtOPH65QPK3g">
+            <specification xmi:type="uml:LiteralString" xmi:id="_dK-dU0QGEeqtOPH65QPK3g" value="Réponse non favorable"/>
+          </guard>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dVEQGEeqtOPH65QPK3g" covered="_dK-dPUQGEeqtOPH65QPK3g" message="_dK-dXkQGEeqtOPH65QPK3g"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dVUQGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" message="_dK-dXkQGEeqtOPH65QPK3g"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dK-dVkQGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" start="_dK-dVUQGEeqtOPH65QPK3g" finish="_dK-dV0QGEeqtOPH65QPK3g"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dV0QGEeqtOPH65QPK3g" covered="_dK-dPEQGEeqtOPH65QPK3g" message="_dK-dX0QGEeqtOPH65QPK3g"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dK-dWEQGEeqtOPH65QPK3g" covered="_dK-dO0QGEeqtOPH65QPK3g" message="_dK-dX0QGEeqtOPH65QPK3g"/>
+        </operand>
+      </fragment>
+      <message xmi:id="_dK-dWUQGEeqtOPH65QPK3g" name="Affiche le formulaire de connexion" receiveEvent="_dK-dP0QGEeqtOPH65QPK3g" sendEvent="_dK-dPkQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dWkQGEeqtOPH65QPK3g" name="Saisis ses identifiants de connexion" receiveEvent="_dK-dQ0QGEeqtOPH65QPK3g" sendEvent="_dK-dQkQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dW0QGEeqtOPH65QPK3g" name="Vérifie la conformité des identifiants" receiveEvent="_dK-dRkQGEeqtOPH65QPK3g" sendEvent="_dK-dRUQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dXEQGEeqtOPH65QPK3g" name="Réponse favorable" messageSort="reply" receiveEvent="_dK-dTUQGEeqtOPH65QPK3g" sendEvent="_dK-dTEQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dXUQGEeqtOPH65QPK3g" name="Affichage des catégories (nouvelle pièce vérifier)" messageSort="reply" receiveEvent="_dK-dT0QGEeqtOPH65QPK3g" sendEvent="_dK-dTkQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dXkQGEeqtOPH65QPK3g" name="Réponse non favorable" messageSort="reply" receiveEvent="_dK-dVUQGEeqtOPH65QPK3g" sendEvent="_dK-dVEQGEeqtOPH65QPK3g"/>
+      <message xmi:id="_dK-dX0QGEeqtOPH65QPK3g" name="Affiche identification échouée" messageSort="reply" receiveEvent="_dK-dWEQGEeqtOPH65QPK3g" sendEvent="_dK-dV0QGEeqtOPH65QPK3g"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
